@@ -5,7 +5,7 @@ import {
   getProducts,
   updateProduct,
   deleteProduct
-} from "../controllers/student.controllers.js";
+} from "../controllers/product.controllers.js";
 
 import authenticateToken from "../middlewares/auth.token.js";
 import { createProductSchema } from "../schemas/product.schema.js";
